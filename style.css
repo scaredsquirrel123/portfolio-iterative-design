@@ -1,0 +1,73 @@
+/*navbar edits*/
+.navbar{
+    background-color: #BABCBF;
+    margin-bottom: 0px;
+  }
+
+#head-nav{
+  color:  #6A6A6C;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Baskervville', serif;
+}
+
+.navbar a:hover {
+  background-color: #F5F0ED;
+}
+
+.navbar a:focus{
+  background:#F5F0ED;
+}
+
+h1{ 
+  font-family: 'Nunito', sans-serif;
+  color: #025B6D;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h2{
+  font-family: 'Baskervville', serif;
+  color: #6A6A6C;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #D6B7B5;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+p{
+
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.h2-2{
+    color: #3D5361;
+    margin-top: 10px;
+}
+
+p{
+    font-family: 'Baskervville', serif;
+  color: #025B6D;
+  padding-left: 70px;
+  padding-right: 70px;
+}
