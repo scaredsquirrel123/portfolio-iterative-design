@@ -93,6 +93,74 @@ p{
        url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-latin-regular.svg#PortLligatSans') format('svg'); /* Legacy iOS */
 }
 
-.header-title{
-  font-family:'Port Sans';
+/* concert-one-regular - latin */
+@font-face {
+  font-family: 'Concert One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/concert-one-v17-latin/concert-one-v17-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Concert One'),
+       url('./fonts/concert-one-v17-latin/concert-one-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/concert-one-v17-latin/concert-one-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/concert-one-v17-latin/concert-one-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/concert-one-v17-latin/concert-one-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/concert-one-v17-latin/concert-one-v17-latin-regular.svg') format('svg'); /* Legacy iOS */
 }
+
+/* lilita-one-regular - latin */
+@font-face {
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/lilita-one-v13-latin/lilita-one-v13-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lilita One'),
+       url('./fonts/lilita-one-v13-latin/lilita-one-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/lilita-one-v13-latin/lilita-one-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/lilita-one-v13-latin/lilita-one-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/lilita-one-v13-latin/lilita-one-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/lilita-one-v13-latin/lilita-one-v13-latin-regular.svg') format('svg'); /* Legacy iOS */
+}
+
+
+@media screen and (max-width: 600px) {
+  .ip-icon{
+      width: 12vw;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .ip-icon{
+      width: 10vw;
+  }
+}
+
+@media screen and (min-width:991px) {
+  .ip-icon {
+    width: 12vw;;
+  }
+  
+}
+
+.navbar-nav .nav-item .nav-link{
+  font-family: "Lilita One";
+}
+
+@media screen and (max-width: 991px) {
+  .header-title{
+    font-family:'Lilita One';
+    letter-spacing: 0.75vw;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width:991px) {
+  .header-title {
+    font-family:'Lilita One';
+    letter-spacing: 0.75vw;
+    font-size: 2.75rem;
+  }
+  
+}
+
+
+
