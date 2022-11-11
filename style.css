@@ -13,7 +13,7 @@
 }
 
 .navbar a:hover {
-  background-color: #F5F0ED;
+  background-color: rgb(214, 183, 181, 0.2) ;
 }
 
 .navbar a:focus{
@@ -24,12 +24,12 @@ h1{
   font-family: 'Nunito', sans-serif;
   color: #025B6D;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 h2{
   font-family: 'Baskervville', serif;
-  color: #6A6A6C;
+  color: #025B6D;
   padding-left: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -61,13 +61,20 @@ p{
 }
 
 .h2-2{
-    color: #3D5361;
+    color: #6A6A6C;
     margin-top: 10px;
 }
 
 p{
-    font-family: 'Baskervville', serif;
-  color: #025B6D;
+  font-family: 'Baskervville', serif;
+  color: #6A6A6C;
   padding-left: 70px;
   padding-right: 70px;
+}
+
+#bullet{
+  font-family: 'Baskervville', serif;
+  color: #6A6A6C;
+  margin-left: 40px;
+  margin-right: 70px;
 }
