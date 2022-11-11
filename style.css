@@ -78,3 +78,21 @@ p{
   margin-left: 40px;
   margin-right: 70px;
 }
+
+/* port-lligat-sans-regular - latin */
+@font-face {
+  font-family: 'Port Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-regular.eot'); /* IE9 Compat Modes */
+  src: local('Port Sans')
+       url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18--regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/port-lligat-sans-v18-latin/port-lligat-sans-v18-regular.svg#PortLligatSans') format('svg'); /* Legacy iOS */
+}
+
+.header-title{
+  font-family: "Port Sans";
+}
