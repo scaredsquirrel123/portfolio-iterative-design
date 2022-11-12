@@ -210,3 +210,36 @@ p{
   padding-left: 5%;
   padding-right: 5%;
 }
+
+/* inria-sans-300 - latin */
+@font-face {
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/inria-sans-v14-latin/inria-sans-v14-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Inria Sans'),
+       url('./fonts/inria-sans-v14-latin/inria-sans-v14-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/inria-sans-v14-latin/inria-sans-v14-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/inria-sans-v14-latin/inria-sans-v14-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/inria-sans-v14-latin/inria-sans-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/inria-sans-v14-latin/inria-sans-v14-latin-regular.svg') format('svg'); /* Legacy iOS */
+}
+
+
+/* inria-sans-regular - latin */
+@font-face {
+  font-family: 'Inria Sans-400';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/inria-sans-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Inria Sans-400'),
+       url('./fonts/inria-sans-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/inria-sans-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/inria-sans-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/inria-sans-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/inria-sans-v14-latin-regular.svg#InriaSans') format('svg'); /* Legacy iOS */
+}
+
+.secondary-subtitle{
+  font-family: "Inria Sans";
+}
